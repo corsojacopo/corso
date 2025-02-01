@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio di Form</title>
+    <style>
+        /* Stile generale */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Modulo di Contatto</h1>
+
+    <!-- Form con vari tipi di input -->
+    <form action="/submit-form" method="POST">
+        <!-- Campo di testo per il nome -->
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required>
+
+        <!-- Campo email per l'indirizzo email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
+
+        <!-- Campo per selezionare un'opzione -->
+        <label for="topic">Argomento</label>
+        <select id="topic" name="topic" required>
+            <option value="">-- Seleziona un argomento --</option>
+            <option value="support">Supporto</option>
+            <option value="sales">Vendite</option>
+            <option value="general">Generale</option>
+        </select>
+
+        <!-- Campo per un messaggio o descrizione -->
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="5" placeholder="Scrivi il tuo messaggio" required></textarea>
+
+        <!-- Checkbox per accettare termini e condizioni -->
+        <label>
+            <input type="checkbox" name="terms" required>
+            Accetto i termini e le condizioni
+        </label>
+
+        <!-- Pulsante di invio -->
+        <button type="submit">Invia</button>
+    </form>
+
+</body>
+</html>

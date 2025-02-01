@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione: Liste e Tabelle</title>
+    <link rel="stylesheet" href="Esercizio.css">
+</head>
+<body>
+    <header>
+        <h1>Ripasso delle Liste e Introduzione alle Tabelle</h1>
+    </header>
+
+    <main>
+        <!-- Ripasso delle Liste -->
+        <section>
+            <h2>Ripasso: Liste</h2>
+
+            <!-- Esempio di una lista non ordinata -->
+            <h3>Lista non ordinata</h3>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2
+                    <!-- Lista annidata all'interno del secondo elemento -->
+                    <ul>
+                        <li>Sottoelemento 2.1</li>
+                        <li>Sottoelemento 2.2</li>
+                    </ul>
+                </li>
+                <li>Elemento 3</li>
+            </ul>
+
+            <!-- Esempio di una lista ordinata -->
+            <h3>Lista ordinata</h3>
+            <ol>
+                <li>Primo elemento</li>
+                <li>Secondo elemento</li>
+                <li>Terzo elemento</li>
+            </ol>
+
+            <!-- Esempio di una lista di definizione -->
+            <h3>Lista di definizione</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguaggio di markup per strutturare le pagine web.</dd>
+                <dt>CSS</dt>
+                <dd>Linguaggio per definire lo stile delle pagine web.</dd>
+                <dt>JavaScript</dt>
+                <dd>Linguaggio per aggiungere interattività alle pagine web.</dd>
+            </dl>
+        </section>
+
+        <!-- Introduzione alle Tabelle -->
+        <section>
+            <h2>Introduzione alle Tabelle</h2>
+            <table>
+                <!-- Titolo della tabella per descriverne il contenuto -->
+                <caption>Esempio di Tabella</caption>
+
+                <!-- Intestazione della tabella -->
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cognome</th>
+                        <th>Età</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo della tabella con i dati principali -->
+                <tbody>
+                    <tr>
+                        <td>Mario</td>
+                        <td>Rossi</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Luisa</td>
+                        <td>Verdi</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Anna</td>
+                        <td>Bianchi</td>
+                        <td>35</td>
+                    </tr>
+                </tbody>
+
+                <!-- Footer della tabella per riepiloghi o calcoli -->
+                <tfoot>
+                    <tr>
+                        <!-- Colonna combinata per la descrizione del totale -->
+                        <td colspan="2">Totale persone</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer della pagina -->
+    <footer>
+        <p>Lezione su Liste e Tabelle</p>
+    </footer>
+</body>
+</html>

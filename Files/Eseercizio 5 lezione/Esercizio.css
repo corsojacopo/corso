@@ -1,0 +1,95 @@
+/* Stile generale per il corpo e la pagina */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Imposta il font principale */
+    margin: 0; /* Rimuove il margine predefinito del browser */
+    background-color: #f9f9f9; /* Colore di sfondo chiaro */
+    line-height: 1.6; /* Imposta l'altezza delle righe per una migliore leggibilità */
+}
+
+/* Stile per l'intestazione */
+header {
+    background-color: #4CAF50; /* Colore verde per l'intestazione */
+    color: white; /* Colore del testo bianco */
+    text-align: center; /* Centra il testo */
+    padding: 20px; /* Aggiunge spazio interno */
+}
+
+h1, h2 {
+    color: #333; /* Colore del testo scuro */
+    text-align: center; /* Centra i titoli */
+}
+
+/* Sezioni principali */
+section {
+    margin: 20px auto; /* Aggiunge margine sopra e sotto e centra la sezione */
+    max-width: 800px; /* Imposta una larghezza massima */
+    background-color: white; /* Colore di sfondo bianco */
+    padding: 20px; /* Aggiunge spazio interno */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+}
+
+/* Stile per le liste */
+ul, ol, dl {
+    margin: 20px; /* Aggiunge margine attorno alle liste */
+    padding: 10px; /* Aggiunge padding interno */
+    background-color: #f4f4f4; /* Colore di sfondo chiaro */
+    border: 1px solid #ddd; /* Bordo sottile grigio */
+    border-radius: 5px; /* Arrotonda gli angoli */
+    list-style-position: inside; /* Posiziona i marker delle liste all'interno */
+}
+
+ul ul, ol ol {
+    margin-left: 20px; /* Indenta le liste annidate */
+}
+
+dl dt {
+    font-weight: bold; /* Testo in grassetto per i termini della lista di definizione */
+}
+
+dl dd {
+    margin-left: 20px; /* Indenta le descrizioni della lista di definizione */
+}
+
+/* Stile per le tabelle */
+table {
+    width: 100%; /* Imposta la larghezza al 100% del contenitore */
+    border-collapse: collapse; /* Rimuove gli spazi tra le celle */
+    margin: 20px 0; /* Aggiunge margine sopra e sotto */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Bordo sottile grigio */
+}
+
+caption {
+    font-weight: bold; /* Testo in grassetto per il titolo della tabella */
+    margin-bottom: 10px; /* Aggiunge spazio sotto il titolo */
+    text-align: center; /* Centra il titolo */
+}
+
+th {
+    background-color: #4CAF50; /* Colore di sfondo verde per l'intestazione */
+    color: white; /* Colore del testo bianco */
+    padding: 10px; /* Aggiunge padding interno */
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+td {
+    padding: 10px; /* Aggiunge padding interno alle celle */
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+tfoot td {
+    font-weight: bold; /* Testo in grassetto per il footer */
+    background-color: #f4f4f4; /* Colore di sfondo chiaro */
+    text-align: right; /* Allinea il testo a destra */
+}
+
+/* Stile per il footer della pagina */
+footer {
+    text-align: center; /* Centra il testo del footer */
+    background-color: #4CAF50; /* Colore di sfondo verde */
+    color: white; /* Colore del testo bianco */
+    padding: 10px; /* Aggiunge padding interno */
+    margin-top: 20px; /* Aggiunge margine sopra il footer */
+}
